@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates';
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 15px 15px;
+}
+
+/* header */
+
+header{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+}
+.header__logo{
+  font-size: 36px;
+  font-weight: bold;
+  font-weight: 800;
+}
+.header__logo span{
+  color: #FE8C01;
+}
+nav{
+  margin: 0 auto;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+nav ul span{
+  color: #FE8C01;
+}
+.header__basket{
+  margin-left: auto;
+}
+
+/* header end*/
+
+/* hero */
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 50px;
+}
+.hero__title{
+  color:#FE8C01;
+  font-size: 24px;
+  font-weight: 500;
+}
+.hero__name{
+  color: #232323;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 150px;
+}
+.hero_name_span{
+  color: #FE8C01;
+  font-size: 140px;
+  font-weight: 800;
+}
+.hero__info{
+  color: #232323;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.hero__img img{
+  width: 420px;
+  height: 420px;
+  border: 6px solid #FE8C01;
+  border-radius: 50%;
+}
+.hero__button{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+  gap: 30px;
+}
+.hero__button button{
+  border: none;
+  outline: none;
+  background-color: #FE8C01;
+  padding: 10px 30px;
+  color:white;
+  font-size: 18px;
+  border-radius: 30px;
+}
+.hero_button_info{
+  font-size: 12px;
+  color: #c4c4c4;
+  font-weight: 500;
+  width: 180px;
+}
+
+/* hero end*/
+
+/* carts */
+
+.menu{
+  margin-top: 50px;
+}
+.menu h1{
+  color: #232323;
+  display: flex;
+  justify-content: center;
+}
+.menu__line{
+  border: 3px solid #FE8C01;
+  border-radius: 15px;
+  width: 130px;
+  margin: 5px auto;
+}
+.menu__carts{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 15px;
+  margin-top: 50px;
+}
+.menu_cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9F8FB;
+  border-radius: 15px;
+}
+.menu_cart.active{
+  background-color: #FE8C01;
+  color:white;
+}
+.menu_cart_img img{
+  padding-top: 25px;
+  width: 100px;
+  height: 100px;
+}
+.menu_cart_text{
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+/* carts end*/
+
+/* category carts*/
+
+.category__carts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  grid-auto-rows: 300px;
+  gap: 15px;
+}
+.category_cart_img img{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  position: absolute;
+}
+.category_cart{
+  position: relative;
+}
+.category_cart_text{
+  position: relative;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  left: 10%;
+  top: 55%;
+}
+.salate_name{
+  font-weight: 800;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+.salate_info{
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.salate_about{
+  font-size: 10px;
+  font-weight: 600;
+}
+.category_cart_button{
+  position: relative;
+  top: 60%;
+  text-align: center;
+}
+.category_cart_button button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* category  carts end*/
+
+/* next list */
+
+.nextList__button{
+  margin-top: 50px;
+}
+.NextList_button{
+  outline: none;
+  border: none;
+  background-color: #E9F8FB;
+  padding: 10px 50px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+/* next list end */
